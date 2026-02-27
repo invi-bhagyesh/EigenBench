@@ -1,6 +1,4 @@
-eigenbench\_
-
-Packaged EigenBench evaluation framework.
+# EigenBench
 
 ## Modules
 
