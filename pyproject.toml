@@ -1,0 +1,25 @@
+[project]
+name = "eigenbench"
+version = "0.1.0"
+description = "EigenBench: LLM evaluation with Bradley-Terry models and EigenTrust scoring"
+readme = "README.md"
+authors = [
+    { name = "invi_bhagyesh", email = "104337027+invi-bhagyesh@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.84.0",
+    "google-genai>=1.65.0",
+    "numpy>=2.4.2",
+    "openai>=2.24.0",
+    "python-dotenv>=1.2.1",
+    "torch>=2.10.0",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+eigenbench = "eigenbench:main"
+
+[build-system]
+requires = ["uv_build>=0.8.19,<0.9.0"]
+build-backend = "uv_build"
