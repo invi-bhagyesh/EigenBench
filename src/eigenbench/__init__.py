@@ -18,3 +18,5 @@ from .eigentrust import (
     row_normalize, eigentrust,
     load_vector_bt, load_vector_btd,
 )
+from .pipeline import extract, fit
+
